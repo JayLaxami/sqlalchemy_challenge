@@ -36,7 +36,14 @@ Jsonify representation is returned.(Using Flask Jsonify function to convert API 
 
 Routes created- precipitation, stations, tobs, start route and start/end route.
 
+For preciptation route : Returns JSON dictionary of date as the key and the value as the precipitation(last 12 months of data).
 
+For Station route: Returns JSON list of Station.
 
+For Tobs route: Returns JSON list of temperature observations for the previous year.
+
+For Start date route: Return a JSON list of TMIN, TAVG, and TMAX for a specified start date.
+
+For Start and End date route: Return a JSON list of TMIN, TAVG, and TMAX for dates from the start date to the end date, inclusive.
 
 
